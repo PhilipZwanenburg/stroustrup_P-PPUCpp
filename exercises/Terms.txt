@@ -1,0 +1,22 @@
+Terms
+
+//                  : Comment operator
+<<                  : Output operator
+C++                 : Programming Language
+comment             : Portion of the code visible only to humans
+compiler            : Converts source code to machine code
+compile-time error  : An error detected while compiling
+cout                : (c)haracter (out)put stream
+executable          : file used to run the code
+function            : portion of the code providing limited functionality for the program
+header              : file to be included holding external definitions
+IDE                 : (I)ntegrated (D)evelopment (E)nvironment
+#include            : include directive
+library             : collection of externally defined functions/classes
+linker              : used to link files together while compiling
+main()              : required function in every c++ program, point of departure
+object code         : code generated from source code by the compiler
+output              : output of a program
+program             : collection of functions performing a specific task
+source code         : code written to achieve the program's task (excluding comments?)
+    statement       : A part of a program that specifies an action and isn't an #include. (See 4.4, A.17)

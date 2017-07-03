@@ -1,0 +1,36 @@
+Exercises
+
+(p)artial
+
+
+Potentially interesting
+4: 13
+11: 9
+
+
+Completed (Do at least one...)
+
+02: 1, 5
+03: 1 (p), 7
+04: 8
+05: 11
+06: 2, 3
+07: 1-4
+08: 1
+09: NONE (Revisit technicalities based on future needs)
+10: NONE (Revisit I/O based on future needs)
+11: NONE (Revisit I/O based on future needs)
+
+
+Skipped (Simple enough to be unecessary)
+
+02: 2-4
+03: 2-6, 8-10
+04: 1-7, 9-21
+05: 1-10, 12-14
+06: 1, 4-10
+07: 5-11
+08: 2-14
+09: 1-18
+10: 1-11
+11: 1-16
