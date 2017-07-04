@@ -8,7 +8,9 @@ DEBUG := -g
 STD := -std=gnu++11
 
 SRC := $(wildcard $(SRCDIR)/*.cpp)
-INC_ROOT := -I/home/philip/Desktop/c++/programming_principles/programs/
+
+PROJ_ROOT := /home/philip/Desktop/c++/programming_principles
+INC_ROOT := -I$(PROJ_ROOT)/programs/include
 
 all:
 	$(CC) $(DEBUG) $(STD) $(SRC) $(INC_ROOT)
