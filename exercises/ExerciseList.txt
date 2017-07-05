@@ -6,6 +6,7 @@ Exercises
 Potentially interesting
 4: 13
 11: 9
+14: 15
 
 
 Completed (Do at least one...)
@@ -20,6 +21,9 @@ Completed (Do at least one...)
 09: NONE (Revisit technicalities based on future needs)
 10: NONE (Revisit I/O based on future needs)
 11: NONE (Revisit I/O based on future needs)
+12: NONE (Will not be useful to me in the future)
+13: NONE (Will not be useful to me in the future)
+14: NONE (Will practice this with more useful functions in the future)
 
 
 Skipped (Simple enough to be unecessary)
@@ -34,3 +38,6 @@ Skipped (Simple enough to be unecessary)
 09: 1-18
 10: 1-11
 11: 1-16
+12: 1-13
+13: 1-19
+14: 1-17

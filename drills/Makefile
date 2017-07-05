@@ -1,4 +1,6 @@
-SRCDIR := ch12
+SRCDIR := ch14
+USE_FLTK := 0
+
 
 
 # Not to be modified
@@ -23,15 +25,18 @@ INC_GRAPHICS := -I$(GRAPHICS_DIR)
 LIB_FLTK := $(FLTK_DIR)/lib/libfltk.a $(FLTK_DIR)/lib/libfltk_images.a -lXfixes -lXext -lfontconfig -lpthread -ldl -lm -lX11
 LIB_FLTK += -L/usr/local/lib -ljpeg
 
-INCS := $(INC_ROOT) $(INC_FLTK) $(INC_GRAPHICS)
-LIBS := $(LIB_FLTK)
 
-# Additional source files
-SRC += $(wildcard $(GRAPHICS_DIR)/*.cpp)
-TMP := $(wildcard $(GRAPHICS_DIR)/*.cpp)
+ifeq ($(USE_FLTK),0)
+    INCS := $(INC_ROOT)
+    LIBS := 
+else
+    INCS := $(INC_ROOT) $(INC_FLTK) $(INC_GRAPHICS)
+    LIBS := $(LIB_FLTK)
+
+    # Additional source files
+    SRC += $(wildcard $(GRAPHICS_DIR)/*.cpp)
+endif
 
 
 all:
-	@echo $(TMP)
-	@echo ""
 	$(CC) $(DEBUG) $(STD) $(SRC) $(INCS) $(LIBS)
