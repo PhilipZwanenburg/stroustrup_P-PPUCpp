@@ -24,6 +24,7 @@ Completed (Do at least one...)
 12: NONE (Will not be useful to me in the future)
 13: NONE (Will not be useful to me in the future)
 14: NONE (Will practice this with more useful functions in the future)
+15: NONE (Will practice 1-3 with more complicated examples from later chapters)
 
 
 Skipped (Simple enough to be unecessary)
@@ -41,3 +42,4 @@ Skipped (Simple enough to be unecessary)
 12: 1-13
 13: 1-19
 14: 1-17
+15: 1-11
