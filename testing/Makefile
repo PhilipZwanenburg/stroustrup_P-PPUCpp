@@ -12,7 +12,7 @@ SRC := $(wildcard $(SRCDIR)/*.cpp)
 PROJ_ROOT := /home/philip/Desktop/c++/programming_principles
 
 INCS := 
-LIBS := -lm
+LIBS :=
 
 all:
 	$(CC) $(DEBUG) $(STD) $(SRC) $(INCS) $(LIBS)

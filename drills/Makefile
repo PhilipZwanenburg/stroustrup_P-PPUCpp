@@ -1,4 +1,4 @@
-SRCDIR := ch15/class
+SRCDIR := ch17/2
 USE_FLTK := 0
 
 

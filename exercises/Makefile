@@ -1,4 +1,5 @@
-SRCDIR := ch8/exercise1
+SRCDIR := ch17/11
+USE_STD_LIB_FACILITIES := 0
 
 
 # Not to be modified
@@ -12,5 +13,13 @@ SRC := $(wildcard $(SRCDIR)/*.cpp)
 PROJ_ROOT := /home/philip/Desktop/c++/programming_principles
 INC_ROOT := -I$(PROJ_ROOT)/programs/include
 
+ifeq ($(USE_STD_LIB_FACILITIES),0)
+    INCS :=
+else
+    INCS := $(INC_ROOT)
+endif
+
+LIBS :=
+
 all:
-	$(CC) $(DEBUG) $(STD) $(SRC) $(INC_ROOT)
+	$(CC) $(DEBUG) $(STD) $(SRC) $(INCS) $(LIBS)

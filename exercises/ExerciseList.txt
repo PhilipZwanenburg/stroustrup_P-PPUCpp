@@ -25,6 +25,8 @@ Completed (Do at least one...)
 13: NONE (Will not be useful to me in the future)
 14: NONE (Will practice this with more useful functions in the future)
 15: NONE (Will practice 1-3 with more complicated examples from later chapters)
+16: NONE (will not be using FLTK in the future)
+17: 2, 3, 8, 11
 
 
 Skipped (Simple enough to be unecessary)
@@ -43,3 +45,5 @@ Skipped (Simple enough to be unecessary)
 13: 1-19
 14: 1-17
 15: 1-11
+16: 1-10
+17: 1, 4-7, 9-10, 12-14 (Skipped in favour of directly learning the std::list facilities in later chapters)
