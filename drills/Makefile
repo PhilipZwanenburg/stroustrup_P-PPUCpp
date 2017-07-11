@@ -1,4 +1,4 @@
-SRCDIR := ch17/2
+SRCDIR := ch18/array
 USE_FLTK := 0
 
 
