@@ -1,11 +1,11 @@
-SRCDIR := ch19/03
+SRCDIR := ch19/12
 USE_STD_LIB_FACILITIES := 0
 
 
 # Not to be modified
 
 CC := g++
-DEBUG := -g
+DEBUG := -g -Wall -Wextra -Werror
 STD := -std=gnu++11
 
 SRC := $(wildcard $(SRCDIR)/*.cpp)
